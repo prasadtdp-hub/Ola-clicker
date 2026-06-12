@@ -1,0 +1,11 @@
+workflows:
+  android-workflow:
+    name: Android Workflow
+    environment:
+      vars:
+        PACKAGE_NAME: "com.aistudio.autoclicker.asdzxc"
+    scripts:
+      - chmod +x gradlew
+      - ./gradlew assembleDebug
+    artifacts:
+      - app/build/outputs/**/*.apk
