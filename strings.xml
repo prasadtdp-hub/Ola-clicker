@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AmaravatiAutoPro</string>
+    <string name="accessibility_service_description">Automatically clicks buttons with the text \"Accept\".</string>
+</resources>
